@@ -209,6 +209,4 @@ MIT License - see LICENSE file for details.
 This project uses the Olympic Boxing Punch Classification Video Dataset:
 - **Citation**: Stefański, P., Kozak, J., & Jach, T. (2024). Boxing Punch Detection with Single Static Camera. *Entropy*, 26(8).
 
----
 
-**Ready to analyze boxing footage? Run inference on your video!** 🥊
