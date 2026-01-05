@@ -28,7 +28,9 @@ logger = logging.getLogger(__name__)
 
 current_dir = Path(__file__).parent.parent.absolute()
 models_dir = current_dir / 'models'
+scripts_dir = current_dir / 'scripts'
 sys.path.insert(0, str(models_dir))
+sys.path.insert(0, str(scripts_dir))
 
 try:
     from actionnet_transformer_video import ActionNetTransformerVideo
