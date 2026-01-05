@@ -1,6 +1,6 @@
 #  Combat Sports AI Video Analysis
 
-An AI-driven application for analyzing combat sports footage using Vision Transformer models to classify boxing actions in real-time.
+A Vision-Transformer Based application for analyzing combat sports by classifying boxing actions in real-time.
 
 ##  Features
 
@@ -15,7 +15,7 @@ An AI-driven application for analyzing combat sports footage using Vision Transf
 - **Peak Detection**: Advanced algorithm to identify distinct actions, including rapid combos
 
 ###  Advanced Features
-- **Real-time Inference**: Fast video processing with GPU acceleration
+- **Real-time Inference**: Fast video processing done with GPU acceleration through a VM on Google Cloud
 - **Sliding Window Analysis**: Processes videos with overlapping windows for comprehensive coverage
 - **Confidence Scoring**: Action detection with confidence thresholds
 - **Class Balancing**: Automatic handling of class imbalance in training data
@@ -143,7 +143,7 @@ The model is trained on the Olympic Boxing Punch Classification Video Dataset, w
 
 ### Model Performance
 - **Training Accuracy**: ~98%
-- **Validation Accuracy**: ~82%
+- **Validation Accuracy**: ~91%
 - **Architecture**: Vision Transformer with 3 encoder layers, 8 attention heads
 - **Input**: 30-frame sequences at 224x224 resolution
 - **Output**: Dense predictions for all frames
@@ -195,6 +195,8 @@ The model is trained on the Olympic Boxing Punch Classification Video Dataset, w
 Contributions are welcome! Areas for improvement:
 - Model accuracy improvements
 - Additional action types
+- Seperating actions for both opponents
+- Using the Seperate Actions to create an unbiased round by round judging system.
 - Real-time processing optimization
 - Better handling of class imbalance
 
